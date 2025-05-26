@@ -1,16 +1,14 @@
 {
   "name": "tech-trend-api",
   "version": "1.0.0",
-  "author": "Martín Cruz",
+  "author": "Martin Cruz",
   "description": "API for Tech-Trend's e-commerce platform",
-  "license": "MIT",
-  "packageManager": "pnpm@9.14.2",
   "engines": {
     "node": "22.x"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/martinncruzz/Tech-Trend/tree/main/api"
+    "url": "https://github.com/martinncruzz/tech-trend/tree/main/api"
   },
   "scripts": {
     "postinstall": "pnpm prisma generate",
